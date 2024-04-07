@@ -112,6 +112,7 @@ ul {
 }
 
 ul li a {
+  border-radius: 10px;
   text-decoration: none;
   display: flex;
   justify-content: center;
