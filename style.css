@@ -38,9 +38,11 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: auto;
   margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
@@ -58,14 +60,14 @@ body * {
   margin-top: 8px;
 }
 
-#switch{
+#switch {
   position: relative;
   width: 64px;
   margin: 4px auto;
   cursor: pointer;
 }
 
-#switch button{
+#switch button {
   width: 32px;
   height: 32px;
   background-color: white;
@@ -83,12 +85,12 @@ body * {
   top: 50%;
 }
 
-.light #switch button{
-  right:0;
+.light #switch button {
+  right: 0;
   left: initial;
 }
 
-#switch span{
+#switch span {
   display: block;
   width: 64px;
   height: 24px;
@@ -98,8 +100,6 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-
-
 
 ul {
   display: flex;
@@ -148,5 +148,3 @@ ul li a:hover {
 #social-links a:hover {
   background: var(--highlight-color);
 }
-
-
